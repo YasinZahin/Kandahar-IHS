@@ -49,6 +49,19 @@ li:nth-child(2) {
 
     grid-column: 5/7;
 }
+select{
+    display: block;
+    width: 300px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    border: 1px solid #1464BE;
+    height: 20px;
+    padding: 4px 4px;
+    background: white;
+}
+
+
+
 
 li:nth-child(3) {
 
@@ -154,6 +167,12 @@ main {
     height: 20px;
     padding: 4px 4px;
 }
+#main div:nth-child(1) input:focus{
+    outline: 2px solid black;
+}
+#main div:nth-child(1) select:focus{
+    outline: 2px solid black;
+}
 
 #main div:nth-child(2) div {
     height: 200px;
@@ -208,3 +227,14 @@ aside div>p {
     margin-bottom: 30px;
     text-align: justify;
 }
+
+
+.click{
+    position: relative;
+    
+
+}
+.click:active{
+    top: 2px;
+}
+
