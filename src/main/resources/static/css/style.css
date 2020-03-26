@@ -1,67 +1,73 @@
+
+/* THE START POINT OF CODE FOR LOGIN PAGE */
+.login-div{
+    height: 1080px;
+    width: 1920;
+}
 .login-input-Username{ 
     position: relative;
-    top: 382px;
-    left: 723px;
-    width: 494px;
-    height: 50px;
+    top: 185px;
+    left: 355px;
+    width: 255px;
+    height: 30px;
     background: #FFFFFF;
-    border: 3px solid #016BC1;
+    border: 2px solid #016BC1;
     border-radius: 2px;
-    font: 22px Arial;
+    font: 14px Arial;
     }
     .login-input-Password{
         position: relative;
-        top: 492px;
-        left: 723px;
-        width: 494px;
-        height: 50px;
+        top: 235px;
+        left: 355px;
+        width: 255px;
+        height: 30px;
         background: #FFFFFF;
-        border: 3px solid #016BC1;
+        border: 2px solid #016BC1;
         border-radius: 2px;
-        font: 22px Arial;
+        font: 14px Arial;
     }
     .login-label-Username{
         position: relative;
-        top: 346px;
-        left: 704px;
+        top: 175px;
+        left: 345px;
         color: #016BC1;
-        font: 23px Arial;
+        font: 12px Arial;
         
     }
     .login-label-Password{
         position: relative;
-        top: 456px;
-        left: 704px;
+        top: 225px;
+        left: 345px;
         color: #016BC1;
-        font: 23px Arial;
+        font: 12px Arial;
     
     }
     .login-button-Login{
         position: relative;
-        top: 651px;
-        left: 730px;
-        width: 230px;
-        height: 60px;
+        top: 320px;
+        left: 355px;
+        width: 120px;
+        height: 33px;
         background: #016BC1;
         text-align: center;
         border: solid 0.5px white;
         border-radius: 1px;
-        font: 26px Dosis;
+        font: 14px Dosis;
         color: #FFFFFF;
         
         
     }
     .login-button-CreateAccount{
         position: relative;
-        top: 651px;
-        left: 750px;
-        width: 230px;
-        height: 60px;
+        top: 320px;
+        left: 365px;
+        width: 120px;
+        height: 33px;
         background: #A1C1E6;
         text-align: center;
         border: solid 0.5px white;
         border-radius: 1px;
-        font: 26px Dosis;
+        font: 14px Dosis;
         color: #FFFFFF;
     }
     
@@ -73,3 +79,5 @@
             box-shadow: 0px 0px 20px 2px #016BC1;
         }
     
+        
+/* THE END POINT OF CODE FOR LOGIN PAGE */
