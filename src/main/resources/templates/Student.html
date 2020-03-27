@@ -41,11 +41,11 @@
 
                 <div>
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="" pattern="[A-Za-z]+">
+                    <input type="text" name="name" id="" pattern="[A-Za-z- ]+" required>
                     <label for="Father Name">Father_Name</label>
-                    <input type="text" name="Father_name" id="" pattern="[A-Za-z]+">
+                    <input type="text" name="Father_name" id="" pattern="[A-Za-z- ]+" required>
                     <label for="GrandFather Name">GrandFather_Name</label>
-                    <input type="text" name="GrandFather_Name" id="" pattern="[A-Za-z]+">
+                    <input type="text" name="GrandFather_Name" id="" pattern="[A-Za-z- ]+" required>
                     <label for="Gender">Gender</label>
                     <select name="Gender" id="">
                         <option value="Select">Select</option>
@@ -54,18 +54,18 @@
                         <option value="other">Other</option>
                     </select>
                     <label for="DOB">DOB</label>
-                    <input type="date" name="DOB" id="">
+                    <input type="date" name="DOB" id="" required>
                     <label for="POB">POB</label>
-                    <input type="text" name="POB" id="" pattern="[A-Za-z]+">
+                    <input type="text" name="POB" id="" pattern="[A-Za-z- ]+" required>
                     <label for="NativeLanguage">Native_Language</label>
-                    <select name="NativeLanguage" id="">
+                    <select name="NativeLanguage" id="" required>
                         <option value="Select">Select</option>
                         <option value="pashto">Pashto</option>
                         <option value="dari">Dari</option>
                         <option value="uzbaki">Uzbaki</option>
                     </select>
                     <label for="Nationality">Nationality</label>
-                    <select name="Nationality" id="">
+                    <select name="Nationality" id="" required>
                         <option value="Select">Select</option>
                         <option value="pashtoon">Pashtoon</option>
                         <option value="tajik">Tajik</option>
@@ -74,13 +74,13 @@
                         <option value="other">Other</option>
                     </select>
                     <label for="NID">Tazkira_Number</label>
-                    <input type="text" name="NID" id="" pattern="[0-9]+">
+                    <input type="text" name="NID" id="" pattern="[0-9]+" required>
                     <label for=" CellPhone"> Cell_Phone</label>
-                    <input type="text" name=" CellPhone" id="" pattern="[0-9]+">
+                    <input type="text" name=" CellPhone" id="" pattern="[0-9]+" required>
                     <label for="ParentCellphone">Parent_Cell_Phone</label>
-                    <input type="text" name="ParentCellphone" id="" pattern="[0-9]+">
+                    <input type="text" name="ParentCellphone" id="" pattern="[0-9]+" required>
                     <label for="Email">Email</label>
-                    <input type="email" name="Email" id="">
+                    <input type="email" name="Email" id="" required>
 
                     <div style="margin: 0; margin-top: 30px;  display: flex; justify-content: space-around;">
 
@@ -92,7 +92,7 @@
                 <div>
                     <label for=" photo">Photo</label>
                     <div>
-                        <img src="" id="photo" alt="" class="photo" style="background: lightcoral; margin-left: 0px; ">
+                        <img src="" id="photo" alt="" class="photo" style=" margin-left: 0px; ">
                     </div>
                     <input type="file" onchange="loadFile(event)" name="photo" id="select-photo-button"
                         value="Select Photo" style="outline: none;">
