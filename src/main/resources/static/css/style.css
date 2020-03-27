@@ -86,6 +86,7 @@ form main div select{
     width: 300px;
     margin: 0px auto;
     margin-bottom: 15px;
+    margin-left: 10px;
     border: 1px solid #1464BE;
     height: 20px;
     padding: 4px 4px;
@@ -158,6 +159,12 @@ main {
     margin-left: 60px;
 }
 
+.photo{
+    height: 200px;
+    width: 160px;
+    /* border: 1px solid #1464BE; */
+    /* margin-left: 60px; */
+}
 #main div:nth-child(2) input{
     margin-top: 10px;
     margin-left: 40px;
@@ -204,10 +211,19 @@ aside div>p {
 
 .click{
     position: relative;
-    
-
 }
+
 .click:active{
     top: 2px;
+}
+
+
+.button-style{
+    background: #1464BE; 
+    width: 125px;
+    height: 20px; 
+    border: none;
+    padding: 4px 4px; 
+    color: white;
 }
 /* END POINT CODE FOR STUDENT PAGE */
