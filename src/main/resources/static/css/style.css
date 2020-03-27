@@ -1,3 +1,57 @@
+/* THE START POINT OF CODE FOR LOGIN PAGE */
+
+.login-div{
+    width: fit-content;
+    margin: 0px auto;
+    margin-top: 11%;
+    align-items: center;
+}
+
+.login-label{
+    color: #016BC1;
+    }
+
+.login-input{ 
+    width: 300px;
+    height: 30px;
+    border: 1px solid #016BC1;
+    border-radius: 2px;
+    font: 15px Arial;
+    margin-left: 10px;
+    display: block;
+    padding-left: 4px;
+    }
+
+.login-input:focus{
+        box-shadow: 0px 0px 1px #016BC1;
+    }
+
+.button-adjust{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        margin-top: 40px;
+    }
+
+.login-button{
+        text-decoration: none;
+        width: 140px;
+        padding: 8px 0px;
+        background: #016BC1;
+        text-align: center;
+        border: none;
+        border-radius: 1px;
+        font: 14px Dosis;
+        color: #FFFFFF;
+    }
+   
+.login-button:active{
+        position: relative;
+        top: 2px;
+    }
+        
+/* THE END POINT OF CODE FOR LOGIN PAGE */
+
 /* START POINT CODE FOR STUDENT PAGE */
 * {
     margin: 0;
